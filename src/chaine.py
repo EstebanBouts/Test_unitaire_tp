@@ -7,3 +7,6 @@ def palindrome(input_str):
         return input_str + " Bien dit"
     else:
         return input_str
+
+def bonjour(input_str):
+    return "Bonjour " + input_str
