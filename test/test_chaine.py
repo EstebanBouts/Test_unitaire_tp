@@ -1,6 +1,7 @@
 import unittest
 from chaine import miroir
 from chaine import palindrome
+from chaine import bonjour
 
 
 class MyTestCase(unittest.TestCase):
@@ -33,7 +34,14 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(bonjour("Ca va"), "Bonjour Ca va")
 
         # Test d'une chaine vide
-        self.assertEqual(bonjour(""), "Bonjour")
+        self.assertEqual(bonjour(""), "Bonjour ")
+
+    def test_aurevoir(self):
+        # Test d'une chaine basique
+        self.assertEqual(bonjour("Bonjour"), "Bonjour Au revoir")
+
+        # Test d'une chaine vide
+        self.assertEqual(bonjour(""), " Au revoir")
 
 
 
