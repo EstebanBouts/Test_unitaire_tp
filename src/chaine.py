@@ -10,3 +10,6 @@ def palindrome(input_str):
 
 def bonjour(input_str):
     return "Bonjour " + input_str
+
+def aurevoir(input_str):
+    return input_str + " Au revoir"
