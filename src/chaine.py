@@ -1,3 +1,9 @@
 def miroir(input_str):
-    # La méthode pour renverser la chaîne
     return input_str[::-1]
+
+
+def palindrome(input_str):
+    if input_str == input_str[::-1] and input_str != "":
+        return input_str + " Bien dit"
+    else:
+        return input_str
