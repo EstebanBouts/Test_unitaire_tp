@@ -1,4 +1,5 @@
 import unittest
+from miroir import miroir
 
 
 class MyTestCase(unittest.TestCase):
